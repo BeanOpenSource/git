@@ -708,6 +708,7 @@ PROGRAMS += $(EXTRA_PROGRAMS)
 
 PROGRAM_OBJS += daemon.o
 PROGRAM_OBJS += http-backend.o
+PROGRAM_OBJS += http-backend-bean.o
 PROGRAM_OBJS += imap-send.o
 PROGRAM_OBJS += sh-i18n--envsubst.o
 PROGRAM_OBJS += shell.o
